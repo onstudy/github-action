@@ -34,5 +34,4 @@ jobs:
       # Make sure the @v0.5.3 matches the current version of the
       # action 
       - uses: webfactory/ssh-agent@v0.5.3
-        with:
-            ssh-private-key: ${{ github.event.inputs.ssh-key }}
+
